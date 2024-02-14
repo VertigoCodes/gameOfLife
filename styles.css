@@ -1,0 +1,64 @@
+  /* Color Scheme */
+  body {
+    background-color: #14191f; 
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* Styles for Navbar */
+.navbar {
+    background-color: #2196F3;
+    color: #fff; /* White */
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center; /* Center the text */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  /* Styles for Main Content */
+  .container {
+    margin: 16px auto;
+  }
+
+  /* Ensure cells are aligned horizontally */
+  .grid-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Styles for Buttons */
+  .controls {
+    margin-top: 20px;
+    text-align: center; /* Center the buttons */
+  }
+  
+  .controls button {
+    padding: 16px 32px; /* Wider but thinner */
+    margin-right: 16px;
+    cursor: pointer;
+    background-color: #1e2a36; /* Deep grey */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 8px;
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+  }
+  
+  .controls button:hover {
+    color: #2196F3; /* Blue */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 8px #1e5ca3; /* Glow effect */
+  }
+
+  .cell:hover{
+    border: #fff 2px solid;
+  }
+
+
+
+  
+  
